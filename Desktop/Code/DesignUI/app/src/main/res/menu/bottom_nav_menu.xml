@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:labelVisibilityMode="labeled">
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/write"
+        android:title="edit"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/navigation_dashboard"
+        app:showAsAction="ifRoom"
+        android:title="delete"
+        android:icon="@drawable/delete_outline_black_18_dp"/>
+    <item
+        android:id="@+id/navigation_notifications"
+        android:icon="@drawable/exit"
+        android:title="exit"
+        app:showAsAction="ifRoom" />
+</menu>
